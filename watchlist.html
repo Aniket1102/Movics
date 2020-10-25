@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Watchlist</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="text/javascript" src="validate.js"> </script>
+
+
+  <script src="https://kit.fontawesome.com/80120a06c5.js" crossorigin="anonymous"></script>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Secular+One&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+  <a class="active brand" style="padding: 14px" href="#home">Movics</a>
+  <div id="home" class="nav">
+    <a class="userid" href="">A</a>
+    <a href="https://github.com/Aniket1102">About</a>
+    <a href="#signup">Logout</a>
+  </div>
+
+  <h1>Your WatchList</h1>
+
+  <div class="watchlistbtn">
+
+    <form id="watchlistSearch" action="index.html" method="post">
+      <input type="text" id="watchlistinput" name="wName" value="" size="27" placeholder="Watchlist Name">
+      <br>
+      <label id="w_characters"></label>
+      <label id="w_comment"></label>
+<br>
+      <button onclick="" type="submit" class="watchlistBtn" name="button">Create New Watchlist</button>
+
+    </form>
+
+
+
+  </div>
+
+
+
+
+  <div class="watchlistDiv">
+
+
+    <div class="card cardRate">
+      <h2>ANIKET</h2>
+      <h1 class="doodle">A</h1>
+      <div class="container">
+
+        <button type="button" onclick="window.location.href='watchlistDetail.html'" class="Watchlist-btn writing" name="button"><i class="fas fa-pen"></i> <br> Edit</button>
+        <button type="button" class="Watchlist-btn writing"><i class="fas fa-trash-alt"></i> <br> Delete</button>
+      </div>
+    </div>
+
+
+    <div class="card cardRate">
+      <h2>Dhruval</h2>
+      <h1 class="doodle">D</h1>
+      <div class="container">
+
+        <button type="button" class="Watchlist-btn writing" onclick="window.location.href='watchlistDetail.html'" name="button"><i class="fas fa-pen"></i> <br> Edit</button>
+        <button type="button" class="Watchlist-btn writing"><i class="fas fa-trash-alt"></i> <br>Delete</button>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+  <footer id="contact">
+    <i class=" sym fab fa-twitter"></i>
+
+    <i class="sym fab fa-facebook-f"></i>
+
+    <i class="sym fab fa-instagram"></i>
+
+    <i class="sym fas fa-envelope"></i>
+
+    <p>© Copyright 2020 Movics</p>
+  </footer>
+
+
+  <script type="text/javascript" src="watchlist-r.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="text/javascript" src="validate.js"> </script>
+
+  <script src="https://kit.fontawesome.com/80120a06c5.js" crossorigin="anonymous"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Secular+One&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+  <a class="active brand" style="padding: 14px" href="#home">Movics</a>
+  <div id="home" class="nav">
+    <a class="userid" href="#">A</a>
+    <a href="#signup">Logout</a>
+    <a href="https://github.com/Aniket1102">About</a>
+    <a href="#Genre">Genre</a>
+    <form class="search" id="searchform" action="index.html" method="post">
+      <input size="72" type="text" placeholder="Search" name="searchdata" value="">
+      <button class="searchbtn" type="submit" name="button"><i class="fas fa-search"></i></button>
+    </form>
+  </div>
+  <label id="msgsearch"></label>
+
+
+  <div class="loginForm-home">
+
+    <form class="loginForm-home" action="homepage.html" method="post">
+
+
+      <input type="email" size="35" name="email" value="" placeholder="Email address">
+      <br>
+      <br>
+      <input type="password" size="35" name="password" value="" placeholder="Password">
+      <br>
+      <br>
+      <button type="submit" name="button">Log In</button>
+
+      <br>
+      <br>
+
+
+    </form>
+
+    <form class="" action="login.html" method="post">
+      <button type="submit" onclick="window.location.href='login.html'" class="guests" name="button">Signup</button>
+
+    </form>
+
+  </div>
+
+
+  <div class="Watchlist">
+
+
+
+    <div class="card">
+      <a class="titleLink" href="movie.html">Avengers Endgame</a>
+      <img class="Watchlist-img" src="avengers.jpg" alt="">
+      <div class="container">
+        <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+        <br>
+        <br>
+        <button onclick="window.location.href='watchlist.html'" type="button" class="Watchlist-btn"><i class="fas fa-plus-circle plus"></i></button>
+        <h3>Add to Watchlist</h3>
+      </div>
+    </div>
+
+
+
+
+    <div class="card">
+      <a class="titleLink" href="movie.html">Jurassic World</a>
+      <img class="Watchlist-img" src="Jurassic.jpg" width="189" height="267" alt="">
+      <div class="container">
+        <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="far fa-star"></i>
+        <br>
+        <br>
+        <button type="button" onclick="window.location.href='watchlist.html'" class="Watchlist-btn"><i class="fas fa-plus-circle plus"></i></button>
+        <h3>Add to Watchlist</h3>
+      </div>
+    </div>
+
+
+
+    <div class="card">
+      <a class="titleLink" href="movie.html">Interstellar</a>
+      <img class="Watchlist-img" src="interstellar.jpg" width="189" height="267" alt="">
+      <div class="container">
+        <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="far fa-star"></i>
+        <br>
+        <br>
+        <button type="button" onclick="window.location.href='watchlist.html'" class="Watchlist-btn"><i class="fas fa-plus-circle plus"></i></button>
+        <h3>Add to Watchlist</h3>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="maingenre" id="Genre">
+    <h1>Genre</h1>
+    <div class="category">
+      <a class="genre-cat" href="#">Action</a>
+    </div>
+
+    <div class="category">
+      <a class="genre-cat" href="#">Adventure</a>
+    </div>
+
+    <div class="category">
+      <a class="genre-cat" href="#">Biography</a>
+    </div>
+
+    <div class="category">
+      <a class="genre-cat" href="#">Comedy</a>
+    </div>
+
+    <div class="category">
+      <a class="genre-cat" href="#">Crime</a>
+    </div>
+
+    <div class="category">
+      <a class="genre-cat" href="#">Drama</a>
+    </div>
+
+    <div class="category">
+      <a class="genre-cat" href="#">Family</a>
+    </div>
+
+    <div class="category">
+      <a class="genre-cat" href="#">Fantasy</a>
+    </div>
+
+    <div class="category">
+      <a class="genre-cat" href="#">Horror</a>
+    </div>
+
+    <div class="category">
+      <a class="genre-cat" href="#">Musical</a>
+    </div>
+
+    <div class="category">
+      <a class="genre-cat" href="#">Romance</a>
+    </div>
+
+    <div class="category">
+      <a class="genre-cat" href="#">SCI-FIC</a>
+    </div>
+
+    <div class="category">
+      <a class="genre-cat" href="#">Sports</a>
+    </div>
+
+    <div class="category">
+      <a class="genre-cat" href="#">Spy</a>
+    </div>
+
+    <div class="category">
+      <a class="genre-cat" href="#">Suspense</a>
+    </div>
+
+
+    <div class="category">
+      <a class="genre-cat" href="#">Thrill</a>
+    </div>
+
+    <div class="category">
+      <a class="genre-cat" href="#">War</a>
+    </div>
+
+    <div class="category">
+      <a class="genre-cat" href="#">Western</a>
+    </div>
+
+
+  </div>
+
+
+
+  <footer id="contact">
+    <i class=" sym fab fa-twitter"></i>
+
+    <i class="sym fab fa-facebook-f"></i>
+
+    <i class="sym fab fa-instagram"></i>
+
+    <i class="sym fas fa-envelope"></i>
+
+    <p>© Copyright 2020 Movics</p>
+  </footer>
+
+  <script type="text/javascript" src="homepage-r.js"> </script>
+
+
+</body>
+
+</html>

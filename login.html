@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Login Page</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="text/javascript" src="validate.js"> </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Secular+One&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/80120a06c5.js" crossorigin="anonymous"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <a class="active brand" href="#home">Movics</a>
+  <div id="home" class="nav">
+    <a href="https://github.com/Aniket1102">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#signup">Signup</a>
+  </div>
+
+
+  <div>
+    <iframe class="video" src="https://www.youtube.com/embed/6ZfuNTqbHE8" width="480" height="320"></iframe>
+  </div>
+
+  <aside class="login">
+
+
+    <form class="loginForm" id="login_form" action="homepage.html" method="post">
+     <input type="email" size="35" name="email" value="" placeholder="Email address">
+      <br>
+      <label id="l_emailmsg"></label>
+      <br>
+      <br>
+      <input type="password" size="35" name="password" value="" placeholder="Password">
+      <br>
+      <label id="l_passmsg"></label>
+<br>
+      <label id="l_comment"></label>
+      <br>
+      <br>
+      <button type="submit" name="button">Log In</button>
+
+      <br>
+      <br>
+      <button type="submit" class="guest" name="button">Log in as Guest</button>
+
+
+    </form>
+
+  </aside>
+
+
+  <section id="signup">
+
+    <h1>Create Your Account</h1>
+
+    <form class="loginForm" id="SignUpForm" action="#home" method="post">
+
+      <input  type="text" size="18" name="fname" value="" placeholder="First Name">
+
+      <input   type="text" size="18" name="lname" value="" placeholder="Last Name">
+      <br>
+      <br>
+      <input type="text" size="36" name="userid" value="" placeholder="User ID">
+      <br>
+      <br>
+
+
+
+      <label  for="img">Image:</label>
+      <input type="file" id="img" name="img" accept="image/*">
+      <br>
+      <br>
+
+    <label id="msgemail"></label>
+      <br>
+      <input type="email" size="36" name="emailaddress" value="" placeholder="Email address">
+      <br>
+      <br>
+      <label id="msgpass"></label>
+      <br>
+      <input type="password" size="18" name="password" value="" placeholder="Password">
+      <input type="password" size="18" name="pass_con" value="" placeholder="Confirm Password">
+      <br>
+      <label id="msgcon"></label>
+<br>
+      <br>
+      <label id="comment_info"></label>
+<br>
+<br>
+      <button onclick="" class="signup" type="submit" name="Sign Up">Signup</button>
+
+    </form>
+
+  </section>
+
+  <footer id="contact">
+    <i class=" sym fab fa-twitter"></i>
+
+    <i class="sym fab fa-facebook-f"></i>
+
+    <i class="sym fab fa-instagram"></i>
+
+    <i class="sym fas fa-envelope"></i>
+
+    <p>© Copyright 2020 Movics</p>
+  </footer>
+
+  <script type="text/javascript" src="signup-r.js"></script>
+
+
+</body>
+
+</html>

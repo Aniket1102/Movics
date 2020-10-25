@@ -1,0 +1,351 @@
+/*                   login.html                    */
+body {
+  background-color: #f6f4e6;
+  margin: 0;
+}
+
+.nav a {
+  font-family: 'Montserrat', sans-serif;
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #41444b;
+}
+
+.brand {
+  font-family: 'Secular One', sans-serif;
+  float: left;
+  color: white;
+  background-color: #fddb3a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a:hover {
+  background-color: #f6f4e6;
+  color: #41444b;
+}
+
+.login {
+  padding-top: 100px;
+  padding-left: 70%;
+  position: relative;
+  bottom: 350px;
+}
+
+input {
+  padding: 10px;
+}
+
+button {
+  background-color: #41444b;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.video {
+  margin: 150px 0 0 30px;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+section {
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 30px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  background-color: white;
+  border: solid;
+  border-color: #41444b;
+  border-width: thick;
+}
+
+footer {
+  overflow: hidden;
+  background-color: #41444b;
+  color: white;
+  margin-top: 50px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.sym {
+  padding: 12px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.guest {
+  background-color: #f08a5d;
+}
+
+.errMsg{
+  border-color:  red;
+  border-style:groove;
+}
+
+
+/*                   home.html                    */
+.guests {
+  background-color: #f08a5d;
+  float: left;
+  margin-left: 5%;
+  margin-bottom: 20px;
+}
+
+.search {
+  float: inherit;
+  margin: 8px 0 0 8px;
+}
+
+.searchbtn {
+  background-color: #fddb3a;
+  margin: 0;
+  border: none;
+  font-size: 12px;
+}
+
+.card {
+  font-family: 'Montserrat', sans-serif;
+  margin: 50px 50px 70px 70px;
+  text-align: center;
+}
+
+.Watchlist-img {
+  border-color: #41444b;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Watchlist-btn {
+  background-color: #41444b;
+}
+
+.plus {
+  color: #f6f4e6;
+  font-size: 40px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.card {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  background-color: #41444b;
+  color: #f6f4e6;
+}
+
+h2 {
+  padding-top: 5px;
+}
+
+.fa-star {
+  font-size: 20px;
+}
+
+.Watchlist {
+  display: inline-flex;
+}
+
+.loginForm-home {
+  margin: 50px 50px 20px 20px;
+  float: right;
+}
+
+.category {
+  margin: 20px 20px 20px 38px;
+  background-color: #f08a5d;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  width: 12%;
+  height: 38px;
+  text-align: center;
+  font-size: 23px;
+  float: left;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.genre-cat {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.maingenre {
+  display: inline-block;
+}
+
+a:hover {
+  color: #41444b;
+}
+
+.userid {
+  background-color: #f08a5d;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bolder;
+}
+
+/*                   movie.html                    */
+.long {
+  border: none;
+  height: 25px;
+  background: #f08a5d;
+  width: 70%;
+  margin-right: 0;
+}
+
+.short {
+  width: 15%;
+  border: none;
+  height: 25px;
+  background: #f08a5d;
+  float: left;
+  margin-left: 0;
+}
+
+.poster {
+  margin: 30px;
+  text-align: center;
+}
+
+.hrLine {
+  display: flex;
+}
+
+.watchImg {
+  margin: 20px;
+  width: 300px;
+  height: 168px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.whereToWatch {
+  text-align: center;
+}
+
+.moviePage {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Secular One', sans-serif;
+  font-size: 25px;
+}
+
+.cardMovie {
+  padding-left: 35%;
+}
+
+.fa-wikipedia-w {
+  text-align: center;
+  font-size: 100px;
+  color: #41444b;
+  padding: 0 0 20px 20px;
+}
+
+.fa-youtube {
+  text-align: center;
+  font-size: 100px;
+  color: #41444b;
+  padding: 0 0 60px 60px;
+}
+
+.fa-pen {
+  color: #f6f4e6;
+  font-size: 40px
+}
+
+.cardRate {
+  width: 350px;
+}
+
+/*                   watchlist.html                    */
+.fa-trash-alt {
+  font-size: 40px
+}
+
+.doodle {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 200px;
+  font-weight: bolder;
+  padding-bottom: 5px;
+  margin: 10px 10px 0 0;
+}
+
+.watchlistDiv {
+  display: inline-flex;
+}
+
+.watchlistBtn {
+  font-family: 'Secular One', sans-serif;
+  background-color: #f08a5d;
+  text-align: center;
+}
+
+.watchlistbtn {
+  margin: 30px;
+}
+
+.writing {
+  font-family: 'Secular One', sans-serif;
+  font-size: 25px;
+}
+
+.watchlistSearch{
+  padding: 10px 0 10px;
+}
+
+.titleLink{
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 50px;
+  color: #f6f4e6;
+  font-family: 'Secular One', sans-serif;
+  font-size: 30px;
+}
+
+.titleLink:hover{
+  color: #f6f4e6;
+}
+
+/*                   watchlistDetail.html                    */
+.addbtn {
+  text-align: center;
+}
+
+.watchlistAdd {
+  background-color: #f08a5d;
+}
+
+.writingadd {
+  font-family: 'Secular One', sans-serif;
+  font-size: 25px;
+  background-color: #f08a5d;
+}
